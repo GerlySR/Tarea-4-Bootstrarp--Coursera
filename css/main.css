@@ -1,0 +1,98 @@
+.jumbotron
+{
+    background-image: url("../images/CR.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0;
+    height: 50vh;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: cadetblue;
+    color: white !important;
+    margin-top: 5px;
+    
+}
+.nav{
+    background-color: #2e2e2e !important;
+    color: white !important;
+}
+
+
+.card-producto{
+    flex: 1 200px;
+    padding: 10px;
+}
+.card-hotel {
+    flex-basis: 300px;
+  }
+  
+    .card-hotel .hotel-data {
+      padding: 0 3%;  
+    }
+    
+    .card-hotel img.card-img-top {
+      height: 200px;
+    }
+  
+    .card-hotel i.fa {
+      color: #007bff;
+      margin: 1rem 0;
+    }
+  
+    .card-hotel .btn-primary {
+      border-radius: 0 0 5px 5px;
+    }
+
+    .Blanco
+    {
+        color: white !important;
+    }
+    .sinMargen
+    {
+        margin-bottom: 0px !important;
+    }
+    @media (max-width: 768px) {
+        .img-product {
+          max-width: 300px;
+        }
+      
+        footer div.row {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        footer div.row div {
+          margin: 5% 0;
+        }
+      
+        footer div.row div[class*="card"] * {
+          width: 100%;
+          text-align: center;
+        }
+      
+        footer div.row div.card-social i.fa {
+          font-size: 5rem;
+        }
+      
+        .jumbotron {
+          text-align: center;
+        }
+      
+      }
+      div.container {
+        margin-top: 80px;
+      }
+
+      .navTabs{
+        background-color: coral !important;
+        color: white !important;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+      color: #fff;
+      background-color: coral;
+  }
+    
